@@ -2,7 +2,7 @@
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
 // This Module Imports
-import { ImageBrokenDirective } from '@app/directives'
+import { ImageBrokenDirective } from '@shared/directives'
 
 const directives = [ImageBrokenDirective]
 

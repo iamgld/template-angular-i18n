@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core'
 import { CommonModule } from '@angular/common'
+import { MatSlideToggleModule } from '@angular/material/slide-toggle'
 // import { MatSidenavModule } from '@angular/material/sidenav'
 // import { MatButtonModule } from '@angular/material/button'
 // import { MatIconModule } from '@angular/material/icon'
@@ -22,7 +23,8 @@ import { CommonModule } from '@angular/common'
 // import { MatRadioModule } from '@angular/material/radio'
 // import { MatProgressSpinnerModule } from '@angular/material/progress-spinner'
 
-const modules: any[] = [
+const modules = [
+	MatSlideToggleModule,
 	// MatSidenavModule,
 	// MatButtonModule,
 	// MatIconModule,

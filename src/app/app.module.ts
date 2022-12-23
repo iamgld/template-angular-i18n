@@ -11,6 +11,9 @@ import { EffectsModule } from '@ngrx/effects'
 import { StoreDevtoolsModule } from '@ngrx/store-devtools'
 import { reducers, metaReducers } from '@store/reducers'
 import { effects } from '@store/effects'
+import { HttpClientModule } from '@angular/common/http'
+// Shared Imports
+import { MaterialModule, TranslocoRootModule } from '@shared/modules'
 
 @NgModule({
 	declarations: [AppComponent],
@@ -26,6 +29,10 @@ import { effects } from '@store/effects'
 			logOnly: environment.production,
 			autoPause: true,
 		}),
+		// I18N
+		TranslocoRootModule,
+		HttpClientModule,
+		MaterialModule,
 	],
 	providers: [],
 	bootstrap: [AppComponent],
