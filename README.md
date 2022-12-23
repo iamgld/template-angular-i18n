@@ -116,7 +116,7 @@ to use `webpack-bundle-analyzer`, before you must use this command `yarn build:s
   yarn analyze || npm run analyze
 ```
 
-<!-- ## Running unit tests
+<!-- ## Running unit testss
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io). -->
 
