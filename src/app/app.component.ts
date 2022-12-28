@@ -10,7 +10,7 @@ import { TranslocoService } from '@ngneat/transloco'
 	styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-	title = 'template-angular-internationalization'
+	title = 'template-angular-i18n'
 
 	constructor(private _transloco: TranslocoService) {}
 
