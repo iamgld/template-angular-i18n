@@ -1,8 +1,9 @@
 {
-	"name": "template-angular-internationalization",
-	"version": "1.0.0",
-	"author": "Syloper",
-	"homepage": "https://syloper.com",
+	"name": "template-angular-i18n",
+	"private": false,
+	"version": "0.0.2",
+	"author": "Gregory J Lopez",
+	"homepage": "https://iamgld.com",
 	"scripts": {
 		"ng": "ng",
 		"start": "ng serve",
@@ -21,7 +22,6 @@
 		"analyze": "webpack-bundle-analyzer dist/stats.json",
 		"postinstall": "husky install"
 	},
-	"private": true,
 	"dependencies": {
 		"@angular/animations": "14.2.8",
 		"@angular/common": "14.2.8",
