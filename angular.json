@@ -3,7 +3,7 @@
 	"version": 1,
 	"newProjectRoot": "projects",
 	"projects": {
-		"template-angular-internationalization": {
+		"template-angular-i18n": {
 			"projectType": "application",
 			"schematics": {
 				"@schematics/angular:application": {
@@ -97,10 +97,10 @@
 					"builder": "@angular-devkit/build-angular:dev-server",
 					"configurations": {
 						"production": {
-							"browserTarget": "template-angular-internationalization:build:production"
+							"browserTarget": "template-angular-i18n:build:production"
 						},
 						"development": {
-							"browserTarget": "template-angular-internationalization:build:development"
+							"browserTarget": "template-angular-i18n:build:development"
 						}
 					},
 					"defaultConfiguration": "development"
@@ -108,7 +108,7 @@
 				"extract-i18n": {
 					"builder": "@angular-devkit/build-angular:extract-i18n",
 					"options": {
-						"browserTarget": "template-angular-internationalization:build"
+						"browserTarget": "template-angular-i18n:build"
 					}
 				},
 				"test": {
@@ -133,7 +133,7 @@
 			}
 		}
 	},
-	"defaultProject": "template-angular-internationalization",
+	"defaultProject": "template-angular-i18n",
 	"cli": {
 		"analytics": "false",
 		"defaultCollection": "@angular-eslint/schematics"
